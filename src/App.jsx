@@ -852,7 +852,8 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import { FaBars, FaTimes, FaBriefcase, FaLock, FaPlus, FaSignOutAlt, FaTrash, FaCalendarAlt, FaGraduationCap, FaRupeeSign, FaClock, FaExternalLinkAlt, FaInfoCircle } from 'react-icons/fa';
 
-const API_URL = 'http://localhost:5000/api';
+// const API_URL = 'http://localhost:5000/api';
+const API_URL = 'https://job-portal-ce48.onrender.com/api'
 
 function App() {
   const [jobs, setJobs] = useState([]);
